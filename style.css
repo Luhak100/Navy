@@ -1,0 +1,16 @@
+/* Global reset */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+/* Body */
+body {background-position: absolute;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 70vh; /* Full height */
+    max-height: 70vh;
+}
+
+}
