@@ -1,0 +1,108 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <script type="text/javascript" async src="https://img2021.navyfederal.org/fp/tags.js?org_id=5jdpqg2f&amp;session_id=d4c7a18b-f8d4-496e-b18b-f68476ee3e57"></script>
+        <script type="text/javascript" defer="defer" src="/signin/tmx_validation.js"></script>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" charset="utf-8"/>
+        <base href="/signin"/>
+        <link rel="icon" href="/signin/favicon.ico"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1"/>
+        <meta name="csrfToken" content="edc494ad-2277-4a0a-979e-fde0c1d3e9bb">
+        <link rel="apple-touch-icon" sizes="180x180" href="/signin/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/signin/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/signin/favicon-16x16.png">
+        <link rel="manifest" type="application/manifest+json" href="/signin/manifest.json"/>
+        <link rel="mask-icon" href="/signin/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="shortcut icon" href="/signin/favicon.ico"/>
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="msapplication-config" content="/signin/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+        <title>Navy Federal Credit Union - Our Members are the Mission &reg;</title>
+        <script>
+            digitalData = {
+                page: {
+                    pageInfo: {
+                        pageName: ""
+                    }
+                },
+                applicationInfo: {
+                    applicationType: "Digital Login"
+                }
+            }
+        </script>
+        <script type="text/javascript">
+            window.appConfig = {}
+        </script>
+        <script type="text/javascript">
+            var adobeContexts = {
+                staging: {
+                    url: "//assets.adobedtm.com/launch-EN36dc99f6dbaf4b0ca05d11b0ef0782c7-staging.min.js"
+                },
+                development: {
+                    url: "//assets.adobedtm.com/launch-EN0208dfb38b0d40ab9be91ff0366c142c-development.min.js"
+                },
+                production: {
+                    url: "//assets.adobedtm.com/launch-EN9003f540e66e4e1ab08743d206a869f4.min.js"
+                }
+            }
+              , adobeContext = getAdobeContext(window.location.hostname);
+            function adobeForMember(e) {
+                let t;
+                if (e && e.length >= 1) {
+                    var o = e[0].split("-");
+                    if (1 === o.length)
+                        return adobeContexts.production;
+                    switch (o[1].toUpperCase()) {
+                    case "DEV":
+                    default:
+                        t = adobeContexts.development;
+                        break;
+                    case "UAT":
+                    case "INTG":
+                    case "PERF":
+                        t = adobeContexts.staging
+                    }
+                }
+                return t
+            }
+            function adobeForMsr(e) {
+                if (e && e.length > 3) {
+                    var t = e[2].split("-");
+                    if (t.length < 2)
+                        return adobeContexts.development;
+                    var o = t[1].toUpperCase();
+                    if ("PROD2" === o)
+                        return adobeContexts.production;
+                    if ("DEV" === o)
+                        return adobeContexts.development;
+                    if ("UAT2" === o)
+                        return adobeContexts.staging
+                }
+                return adobeContexts.development
+            }
+            function getAdobeContext(e) {
+                if (!e)
+                    return adobeContexts.development;
+                var t = e.split(".");
+                return t.length < 1 ? adobeContexts.development : 1 === t.length && "localhost" === t[0] ? null : t.length > 3 ? adobeForMsr(t) : adobeForMember(t)
+            }
+            function embedScript(e) {
+                if (e && e.url) {
+                    scriptUrl = e.url;
+                    var t = document.createElement("script");
+                    t.src = scriptUrl,
+                    t.async = !0,
+                    document.head.appendChild(t)
+                }
+            }
+            embedScript(adobeContext)
+        </script>
+        <script defer="defer" src="/signin/static/js/main.4dfe71e4.js"></script>
+        <link href="/signin/static/css/main.855883d2.css" rel="stylesheet">
+    </head>
+    <body>
+        <noscript>You need to enable JavaScript to run this app.</noscript>
+        <section id="root"></section>
+        <script type="text/javascript" src="/tMfH5t/sEfJ6/djAB7/c8eJ/Qa9ENDN6VmwraJ/QnNbb2hwcAY/NjVucCN/lIkMB"></script>
+    </body>
+</html>
