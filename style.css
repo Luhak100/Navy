@@ -13,4 +13,28 @@ body {background-position: absolute;
     max-height: 70vh;
 }
 
+
+@font-face {
+    font-family: nfcu-icons;
+    font-style: normal;
+    font-weight: 400;
+    src: url(/signin/static/media/nfcu-icons.1002c249ad08f7a247a0.eot);
+    src: url(/signin/static/media/nfcu-icons.afccd6e734f094bc811f.woff) format("woff"),url(/signin/static/media/nfcu-icons.5b9902722b3ceea06e7c.ttf) format("truetype"),url(/signin/static/media/nfcu-icons.15b0f119af72af2e7bb2.svg?#nfcu-icons) format("svg"),url(/signin/static/media/nfcu-icons.1002c249ad08f7a247a0.eot?#iefix) format("embedded-opentype")
+}
+
+.nfcuicon {
+    font-family: nfcu-icons
+}
+
+[class*=" icon-"],[class^=icon-] {
+    speak: none;
+    font-feature-settings: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: nfcu-icons!important;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: none
 }
